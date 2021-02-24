@@ -4,6 +4,8 @@
 # created by David Lev https://github.com/david-lev
 # and Yehuda By https://github.com/M100achuz2
 
+# https://github.com/david-lev/TelegraphSearchBot
+
 
 from pyrogram import Client
 from bot.strings import Strings
