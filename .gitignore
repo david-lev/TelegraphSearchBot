@@ -1,2 +1,4 @@
 bot/config.ini
 bot/AndrotipsSearch.session
+.idea
+bot/__pycache__
