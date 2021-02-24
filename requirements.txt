@@ -1,0 +1,3 @@
+pyrogram==1.1.13
+telegraph==1.4.1
+tgcrypto
