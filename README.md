@@ -14,8 +14,7 @@ git clone https://github.com/david-lev/TelegraphSearchBot.git
 ```
 pip3 install requirements.txt
 ```
-- create ``config.ini`` file in [bot](/bot) folder.
-- insert the folowing values into the [config](/bot/config.ini) file:
+- edit and insert the folowing values into the [config](/bot/config.ini) file:
 ```
 [pyrogram]
 api_id = 123456
