@@ -1,12 +1,17 @@
 from typing import Union
 from telegraph import Telegraph
-import re
+import re, configparser
+from bot.strings import Strings
 
-access_token = "e8200db69743a915f7c78c3791296f0ff0f77c4e5a3a47fd786073b42e7e"
+config = configparser.ConfigParser()
+config.read('bot/config.ini')
+access_token = config.items("telegraph")[0][1]
 
 
 class Search:
-
+    """
+    get all posts from telegraph account and filter them by query
+    """
     def __init__(self, query: str = None):
         self.query = query
 
@@ -23,7 +28,7 @@ class Search:
                 posts.append(post)
         return posts if posts else None
 
-
+# get total number of posts
 def get_count_pages() -> int:
     return Telegraph(access_token).get_page_list()["total_count"]
 

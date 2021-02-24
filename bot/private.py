@@ -1,12 +1,13 @@
-from pyrogram import Client, filters
-from pyrogram.types import *
-from bot.inline import channel
+from bot.inline import *
+from pyrogram import filters
 
 
-@Client.on_message(filters.private & filters.command("start"))
+# send start message
+@Client.on_message(filters.command(["start", "start" + Strings.bot_username]))
 def start_msg(_, message: Message):
-    message.reply("start_msg", #TODO
+    message.reply(Strings.start_message.format(f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"),
+                  disable_web_page_preview=True,
                   reply_markup=InlineKeyboardMarkup([[
-                      InlineKeyboardButton("ערוץ אנדרוטיפס 📱", url=channel),
-                      InlineKeyboardButton("חפש מדריך 🔎", switch_inline_query_current_chat="")
+                      InlineKeyboardButton(Strings.channel_name, url=Strings.channel_url),
+                      InlineKeyboardButton(Strings.search_button, switch_inline_query_current_chat="")
                   ]]))
