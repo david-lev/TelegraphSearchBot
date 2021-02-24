@@ -1,4 +1,4 @@
-# Telegra.ph Search Bot
+# Telegraph Search Bot
 
 Many people use the [Telegra.ph](https://telegra.ph/) platform to write articles and guides In order to get a Instant View in Telegram apps.
 This bot will let you to give your users a great tool to search among the articles you have created in your telegra.ph account.
@@ -38,6 +38,13 @@ in the addreess bar click on the lock icon > Cookies > ``edit.telegra.ph`` > Coo
 
 ### Strings
 you can edit the bot strings (start message, buttons and more) by changing the values in [strings.py](bot/strings.py) file. there is also option to ignore from posts that start in spesific char, for posts that you dont want to appear in the search.
+
+## How to run?
+go to project directory:
+```cd TelegraphSearchBot```
+
+and run it:
+```python3 main.py```
 
 
 ---
