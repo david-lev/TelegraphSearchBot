@@ -30,8 +30,15 @@ root = bot
 access_token = e8200db69743a915f7c78c3799793Kbeec4e5a3a47fd7437073b42e7e
 ```
 #### Telegram keys:
-- api_id & api_hash You can get from [my.telegram.org](https://my.telegram.org).
-- bot_token you can get by create new bot on [BotFather](https://t.me/BotFather).
+- the ``api_id`` & ``api_hash`` You can get from [my.telegram.org](https://my.telegram.org).
+- ``bot_token`` you can get by create new bot on [BotFather](https://t.me/BotFather).
 #### Telegra.ph Token:
-go to [Telegraph](https://t.me/telegraph) bot, chosse your account and log in to the browser.
-in the addreess bar click on the lock icon > Cookies > ``edit.telegra.ph`` > Cookies > ``tph_token`` > Content.
+to get ``access_token`` for your telegra.ph account go to [Telegraph Bot](https://t.me/telegraph), chosse your account and log into the browser.
+in the addreess bar click on the lock icon > Cookies > ``edit.telegra.ph`` > Cookies > ``tph_token`` > Content. [here](https://telegra.ph/file/18ded40043d1f7a6a5a80.png) is an example.
+
+### Strings
+you can edit the bot strings (start message, buttons and more) by changing the values in [strings.py](bot/strings.py) file. there is also option to ignore from posts that start in spesific char, for posts that you dont want to appear in the search.
+
+
+---
+![]()
