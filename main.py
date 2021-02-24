@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+
+# this bot made to search posts in telegra.ph account
+# created by David Lev https://github.com/david-lev
+# and Yehuda By https://github.com/M100achuz2
+
+
 from pyrogram import Client
 from bot.strings import Strings
 

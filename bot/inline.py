@@ -19,7 +19,8 @@ def list_result(pages: list) -> list:
             thumb_url=page.get("image_url", Strings.default_image),
 
             input_message_content=InputTextMessageContent(
-                message_text=f"[{page['title']}]({page['url']})\n\n{page.get('author_name', '')} • צפיות: {page['views']}",
+                message_text=f"[{page['title']}]({page['url']})\n\n"
+                             f"{page.get('author_name', '')} • {Strings.views}: {page['views']}",
                 disable_web_page_preview=False),
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(Strings.share_post, url=share_url + page['url']),
