@@ -1,6 +1,6 @@
 # Telegraph Search Bot
 
-Many people use the [Telegra.ph](https://telegra.ph/) platform to write articles and guides In order to get a Instant View in Telegram apps.
+Many people use the [Telegra.ph](https://telegra.ph/) platform to write articles and guides In order to get a [Instant View](https://instantview.telegram.org/) in Telegram apps.
 This bot will let you to give your users a great tool to search among the articles you have created in your telegra.ph account.
 
 ## How to config?
@@ -10,7 +10,7 @@ This bot will let you to give your users a great tool to search among the articl
 ```
 git clone https://github.com/david-lev/TelegraphSearchBot.git
 ```
-- Install requirements:
+- Install requirements (``pyrogram, telegraph, tgcrypto``):
 ```
 pip3 install requirements.txt
 ```
