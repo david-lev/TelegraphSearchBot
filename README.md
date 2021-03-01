@@ -17,34 +17,39 @@ pip3 install -r requirements.txt
 - edit and insert the folowing values into the [config](/bot/config.ini) file:
 ```
 [pyrogram]
-api_id = 123456
-api_hash = 1ed37e2986541c7780cc7a1ed3ccgr09877
+api_id = 53**5287
+api_hash = 1ed3*******0cc7a1ed***fcc77
 
-bot_token = 1463783971:AAhvhPOjegcpHV3nyVJC-XToLhecHNMPhhyo
+bot_token = 1463783971:AAGuhvh****C-X**oxvHN**hhyo
 
 [plugins]
 root = bot
 
 [telegraph]
-access_token = e8200db69743a915f7c78c3799793Kbeec4e5a3a47fd7437073b42e7e
+access_token = e8200db697*****8c3791296f**0f77c4e5a***2e7e
+
+[telegram]
+bot_username = @YourBotUsername
 ```
 #### Telegram keys:
 - the ``api_id`` & ``api_hash`` You can get from [my.telegram.org](https://my.telegram.org).
-- ``bot_token`` you can get by create new bot on [BotFather](https://t.me/BotFather).
+- ``bot_token`` & ``bot_username`` you can get by create new bot on [BotFather](https://t.me/BotFather).
 #### Telegra.ph Token:
 to get ``access_token`` for your telegra.ph account go to [Telegraph Bot](https://t.me/telegraph), chosse your account and log into the browser.
 in the addreess bar click on the lock icon > Cookies > ``edit.telegra.ph`` > Cookies > ``tph_token`` > Content. [here](https://telegra.ph/file/18ded40043d1f7a6a5a80.png) is an example.
 
 ### Strings
-you can edit the bot strings (start message, buttons and more) by changing the values in [strings.py](bot/strings.py) file. there is also option to ignore from posts that start in spesific char, for posts that you dont want to appear in the search.
+- You can change the bot view by editing the [Strings.py](bot/string.py) file. You can set an welcome message, channel credit, inline buttons and more. The default is in English but you can change if you want. dont delete the ``{}`` characters.
+- There is a string named [char_ignore](https://github.com/david-lev/TelegraphSearchBot/blob/c6b803000f1b938c336064bd22ae0473ffe35075/bot/strings.py#L13) that sets to ignore any post whose title starts with the same character. This way you can hide or create new posts that do not appear in the general search (can be changed at any time.)
 
 ## How to run?
 go to project directory:
-```cd TelegraphSearchBot```
-
+```
+cd TelegraphSearchBot
+```
 and run it:
-```python3 main.py```
-
-
+```
+python3 main.py
+```
 ---
 ![]()
