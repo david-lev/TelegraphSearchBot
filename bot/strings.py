@@ -1,16 +1,15 @@
 
 class Strings:
     # bot strings
-    bot_username = "@davidlevbot"
+    bot_username = "@AndrotipsSearchBot"  # your search bot username | must be change
+    channel_name = "To our channel"  # button to your channel
     channel_url = "https://t.me/joinchat/BpJrsvytyhIxYzBk"  # link to your channel (for credit)
-    channel_name = "To Androtips channel"  # name of your channel
-    search_button = "Search article 🔎"
-    session_name = "AndrotipsSearch"
-    default_image = "https://telegra.ph/file/09a0e9559c0961c379436.png"  # url to image when no image in article preview
-    char_ignore = "⛔"  # ignore from posts with this title
-    share_post = "Share this post ♻️"
-    count_posts = "Showing {} results out of {} posts"
-    no_results = "No results • try again"
+    search_button = "Search article 🔎"  # search articles button
+    default_image = "https://telegra.ph/favicon.ico"  # url to image when there is no image in article preview
+    char_ignore = "⛔"  # Ignore posts whose title starts with the defined emoji ("⛔ Title")
+    share_post = "Share this post ♻️"  # share post button
+    count_posts = "Showing {} results out of {} posts"  # count of results in search window
+    no_results = "No results • try again"  # when there is no results
 
 # start message in private and groups
     start_message = """Hi, {}! 

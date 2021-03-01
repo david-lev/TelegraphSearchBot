@@ -11,4 +11,4 @@ from pyrogram import Client
 from bot.strings import Strings
 
 if __name__ == '__main__':
-    Client("bot/" + Strings.session_name, config_file="bot/config.ini").run()
+    Client("bot/" + Strings.bot_username[1:], config_file="bot/config.ini").run()
