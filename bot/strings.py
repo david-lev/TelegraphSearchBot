@@ -1,7 +1,11 @@
+import configparser
+
 
 class Strings:
+    config = configparser.ConfigParser()
+    config.read('bot/config.ini')
+    bot_username = config.items("telegram")[0][1]
     # bot strings
-    bot_username = "@YourBotUsername"  # your search bot username | must be change
     channel_name = "To our channel"  # button to your channel
     channel_url = "https://t.me/joinchat/BpJrsvytyhIxYzBk"  # link to your channel (for credit)
     search_button = "Search article 🔎"  # search articles button
@@ -12,7 +16,7 @@ class Strings:
     no_results = "No results • try again"  # when there is no results
 
 # start message in private and groups
-    start_message = """Hi, {}! 
+    start_message = """Hi, {}!
 
 **Welcome to the search bot from [Androtips!]({})**
 
