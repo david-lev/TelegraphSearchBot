@@ -3,6 +3,8 @@
 Many people use the [Telegra.ph](https://telegra.ph/) platform to write articles and guides In order to get a [Instant View](https://instantview.telegram.org/) in Telegram apps.
 This bot will let you to give your users a great tool to search among the articles you have created in your telegra.ph account.
 
+- You can check out our bot [here](https://t.me/AndrotipsSearchBot).
+
 ## How to config?
 
 - Clone this repository:
