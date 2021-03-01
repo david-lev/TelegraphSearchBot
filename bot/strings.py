@@ -1,11 +1,11 @@
 
 class Strings:
     # bot strings
-    bot_username = "@AndrotipsSearchBot"  # your search bot username | must be change
+    bot_username = "@YourBotUsername"  # your search bot username | must be change
     channel_name = "To our channel"  # button to your channel
     channel_url = "https://t.me/joinchat/BpJrsvytyhIxYzBk"  # link to your channel (for credit)
     search_button = "Search article 🔎"  # search articles button
-    default_image = "https://telegra.ph/favicon.ico"  # url to image when there is no image in article preview
+    default_image = "https://telegra.ph/images/logo.png"  # url to image when there is no image in article preview
     char_ignore = "⛔"  # Ignore posts whose title starts with the defined emoji ("⛔ Title")
     share_post = "Share this post ♻️"  # share post button
     count_posts = "Showing {} results out of {} posts"  # count of results in search window
