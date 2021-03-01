@@ -12,7 +12,7 @@ git clone https://github.com/david-lev/TelegraphSearchBot.git
 ```
 - Install requirements (``pyrogram, telegraph, tgcrypto``):
 ```
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 - edit and insert the folowing values into the [config](/bot/config.ini) file:
 ```
