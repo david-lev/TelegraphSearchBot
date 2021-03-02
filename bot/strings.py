@@ -20,10 +20,10 @@ class Strings:
 
 **Welcome to the search bot from [Androtips!]({})**
 
-This robot help's you to search articles from our channel.
-In each chat, type the bot username followed by the search words:
+This bot will help you search articles and tutorials on our channel.
+ In each chat, type the bot user followed by the search words:
 `{} a word`
-and just click on the post that you want to read.
+Choose the article you want and get the article in a Instant View!
 
-This bot made with love by [RobotRick](https://t.me/RobotTrick).
+This bot made with ❤️ by [Androtips Team](https://t.me/joinchat/BpJrsvytyhIxYzBk).
 """
