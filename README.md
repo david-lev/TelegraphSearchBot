@@ -4,6 +4,7 @@ Many people use the [Telegra.ph](https://telegra.ph/) platform to write articles
 This bot will let you to give your users a great tool to search among the articles you have created in your telegra.ph account.
 
 - You can check out our bot [here](https://t.me/AndrotipsSearchBot). (The bot and screenshots are in Hebrew but the strings in the source code are in English).
+
 <p float="left">
   <img src="https://telegra.ph/file/c5952e221a000d80ed0cc.png" width="150" />
   <img src="https://telegra.ph/file/2efb80a844b5bfb11ad3f.png" width="150" />
