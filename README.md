@@ -47,8 +47,8 @@ to get ``access_token`` for your telegra.ph account go to [Telegraph Bot](https:
 in the addreess bar click on the lock icon > Cookies > ``edit.telegra.ph`` > Cookies > ``tph_token`` > Content. [here](https://telegra.ph/file/18ded40043d1f7a6a5a80.png) is an example.
 
 ### Strings
-- You can change the bot view by editing the [Strings.py](bot/string.py) file. You can set an welcome message, channel credit, inline buttons and more. The default is in English but you can change if you want. dont delete the ``{}`` characters.
-- There is a string named [char_ignore](https://github.com/david-lev/TelegraphSearchBot/blob/c6b803000f1b938c336064bd22ae0473ffe35075/bot/strings.py#L13) that sets to ignore any post whose title starts with the same character. This way you can hide or create new posts that do not appear in the general search (can be changed at any time.)
+- You can change the bot view by editing the [Strings.py](bot/strings.py) file. You can set an welcome message, channel credit, inline buttons and more. The default is in English but you can change if you want. dont delete the ``{}`` characters.
+- There is a string named [char_ignore](bot/strings.py#L13) that sets to ignore any post whose title starts with the same character. This way you can hide or create new posts that do not appear in the general search (can be changed at any time.)
 
 ## How to run?
 go to project directory:
